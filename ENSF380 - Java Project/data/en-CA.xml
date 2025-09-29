@@ -1,0 +1,394 @@
+
+<translations>
+    <!-- Main -->
+    <translation>
+        <key>main_select_language</key>
+        <value>Please select a language:</value>
+    </translation>
+    <translation>
+        <key>main_english_selection</key>
+        <value>1. English</value>
+    </translation>
+    <translation>
+        <key>main_spanish_selection</key>
+        <value>2. Spanish</value>
+    </translation>
+    <translation>
+        <key>main_language_not_supported</key>
+        <value>Language not yet supported...</value>
+    </translation>
+    <translation>
+        <key>main_english_switch</key>
+        <value>--- Switching to english ---</value>
+    </translation>
+    <translation>
+        <key>main_invalid_option</key>
+        <value>Invalid option. Please enter either 1 or 2.</value>
+    </translation>
+    <translation>
+        <key>main_welcome_message</key>
+        <value>Welcome to the Disaster Relief System!</value>
+    </translation>
+
+    <!-- UserInterface -->
+    <translation>
+        <key>ui_disaster_relief_system</key>
+        <value>--- Disaster Relief System ---
+1. Enter Disaster Victim Info
+2. Log Inquiry
+3. Allocate Supplies
+4. Add Victim Medical Record
+5. Exit
+Choose an option: </value>
+    </translation>
+    <translation>
+        <key>ui_invalid_option2</key>
+        <value>Invalid option. Please enter a number between 1 and 5.</value>
+    </translation>
+    <translation>
+        <key>ui_critical_error</key>
+        <value>A critical error occurred. Please check errorlog.txt.</value>
+    </translation>
+    <translation>
+        <key>ui_allocate_supplies</key>
+        <value>Select the type of item to allocate:
+1. Cot
+2. Blanket
+3. Water
+4. Individual Item
+</value>
+    </translation>
+    <translation>
+        <key>ui_invalid_option3</key>
+        <value>Invalid option. Please choose 1, 2, 3, or 4.</value>
+    </translation>
+    <translation>
+        <key>ui_could_not_write_error_log</key>
+        <value>Could not write to error log: </value>
+    </translation>
+    <translation>
+        <key>ui_exit_program_option</key>
+        <value>Exiting program. Stay safe!</value>
+    </translation>
+    
+    <!-- DisasterVictim -->
+    <translation>
+        <key>dv_input_firstname</key>
+        <value>Enter first name: </value>
+    </translation>
+    <translation>
+        <key>dv_invalid_firstname</key>
+        <value>Invalid input, please enter first name: </value>
+    </translation>
+    <translation>
+        <key>dv_input_lastname</key>
+        <value>Enter last name: </value>
+    </translation>
+    <translation>
+        <key>dv_invalid_lastname</key>
+        <value>Invalid input, please enter last name: </value>
+    </translation>
+    <translation>
+        <key>dv_input_birthdate</key>
+        <value>Enter date of birth (YYYY-MM-DD): </value>
+    </translation>
+    <translation>
+        <key>dv_invalid_birthdate</key>
+        <value>Invalid date format. Please try again.</value>
+    </translation>
+    <translation>
+        <key>dv_input_comments</key>
+        <value>Enter comments: </value>
+    </translation>
+    <translation>
+        <key>dv_input_phonenumber</key>
+        <value>Enter phone number (format xxx-xxxx): </value>
+    </translation>
+    <translation>
+        <key>dv_invalid_phonenumber</key>
+        <value>Invalid format. Please use xxx-xxxx (digits only).</value>
+    </translation>
+    <translation>
+        <key>dv_victim_info_saved</key>
+        <value>Victim information saved with ID: </value>
+    </translation>
+    <translation>
+        <key>dv_victim_info_failed</key>
+        <value>Failed to save victim information.</value>
+    </translation>
+
+    <!-- FamilyGroup -->
+    <translation>
+        <key>fg_group_num</key>
+        <value>Enter family group number (integer): </value>
+    </translation>
+    <translation>
+        <key>fg_invalid_num</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+
+    <!-- Gender -->
+    <translation>
+        <key>gender_selection</key>
+        <value>Enter gender:
+1. Man
+2. Woman
+3. Non-binary
+</value>
+    </translation>
+    <translation>
+        <key>gender_selection_failed</key>
+        <value>Invalid selection. Try again.</value>
+    </translation>
+
+    <!-- Inquirer -->
+    <translation>
+        <key>inq_person_id</key>
+        <value>Enter id of person inquiring: </value>
+    </translation>
+    <translation>
+        <key>inq_person_id_fail</key>
+        <value>No person found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>inq_invalid_num</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>inq_missing_person_id</key>
+        <value>Enter id of missing person: </value>
+    </translation>
+    <translation>
+        <key>inq_missing_person_id_fail</key>
+        <value>No person found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>inq_invalid_num2</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>inq_current_location</key>
+        <value>Enter Your current location:
+1. TELUS
+2. University of Calgary
+</value>
+    </translation>
+    <translation>
+        <key>inq_current_location_fail</key>
+        <value>No location found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>inq_invalid_num3</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>inq_inquiry_date</key>
+        <value>Enter the date of the Inquiry (YYYY-MM-DD): </value>
+    </translation>
+    <translation>
+        <key>inq_invalid_date</key>
+        <value>Invalid date format. Please try again.</value>
+    </translation>
+    <translation>
+        <key>inq_comments</key>
+        <value>Please provide some comments or useful information: </value>
+    </translation>
+    <translation>
+        <key>inq_summary1</key>
+        <value>===== INQUIRY SUMMARY =====</value>
+    </translation>
+    <translation>
+        <key>inq_summary2</key>
+        <value>Inquirer ID: </value>
+    </translation>
+    <translation>
+        <key>inq_summary3</key>
+        <value>Missing Person ID: </value>
+    </translation>
+    <translation>
+        <key>inq_summary4</key>
+        <value>Location ID: </value>
+    </translation>
+    <translation>
+        <key>inq_summary5</key>
+        <value>Date of Inquiry: </value>
+    </translation>
+    <translation>
+        <key>inq_summary6</key>
+        <value>Comments: </value>
+    </translation>
+    <translation>
+        <key>inq_summary7</key>
+        <value>===========================</value>
+    </translation>
+    <translation>
+        <key>inq_success_log</key>
+        <value>Inquiry successfully logged into the database.</value>
+    </translation>
+
+    <!-- Location -->
+    <translation>
+        <key>loc_actual_victim_location</key>
+        <value>Enter actual location of the selected victim:
+1. TELUS
+2. University of Calgary
+</value>
+    </translation>
+    <translation>
+        <key>loc_actual_victim_location_fail</key>
+        <value>No location found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>loc_invalid_num</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>loc_database_success</key>
+        <value>Location successfully associated with the selected person into the database.</value>
+    </translation>
+
+    <!-- MedicalRecord -->
+    <translation>
+        <key>mr_enter_victim</key>
+        <value>Enter victim ID to view/modify: </value>
+    </translation>
+    <translation>
+        <key>mr_victim_not_found</key>
+        <value>No person found with that ID. Please try again.</value>
+    </translation>
+        <translation>
+        <key>mr_invalid_num</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>mr_actual_victim_location</key>
+        <value>Enter actual location of the selected victim:
+1. TELUS
+2. University of Calgary
+</value>
+    </translation>
+        <translation>
+        <key>mr_location_failed</key>
+        <value>No location found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>mr_invalid_num2</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+        <translation>
+        <key>mr_treatment_details</key>
+        <value>Please provide treatment details: </value>
+    </translation>
+    <translation>
+        <key>mr_treatment_details_error</key>
+        <value>Error, no treatment details were inserted</value>
+    </translation>
+        <translation>
+        <key>mr_date_of_inquiry</key>
+        <value>Enter the date when the medical record was issued (YYYY-MM-DD): </value>
+    </translation>
+    <translation>
+        <key>mr_invalid_format</key>
+        <value>Invalid date format. Please try again.</value>
+    </translation>
+    <translation>
+        <key>mr_record_allocated</key>
+        <value>Medical Record successfully allocated into the database.</value>
+    </translation>
+    
+    <!-- ReliefService -->
+    <translation>
+        <key>rs1</key>
+        <value>Inquiry Details:</value>
+    </translation>
+    <translation>
+        <key>rs2</key>
+        <value>Inquirer ID: </value>
+    </translation>
+    <translation>
+        <key>rs3</key>
+        <value>Missing Person ID: </value>
+    </translation>
+    <translation>
+        <key>rs4</key>
+        <value>Date of Inquiry: </value>
+    </translation>
+    <translation>
+        <key>rs5</key>
+        <value>Victim current Location: </value>
+    </translation>
+    <translation>
+        <key>rs6</key>
+        <value>Thank you, stay calm, we will find your missing person.</value>
+    </translation>
+
+        <!-- Supply -->
+    <translation>
+        <key>supply_allocate_to</key>
+        <value>Allocate supplies to:
+1. Individual victim
+2. Location
+</value>
+    </translation>
+    <translation>
+        <key>supply_victim_id</key>
+        <value>Enter victim ID: "</value>
+    </translation>
+    <translation>
+        <key>supply_victim_id_failed</key>
+        <value>No person found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>supply_invalid_num</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>supply_inserted1</key>
+        <value>Supply successfully inserted into the database.</value>
+    </translation>
+    <translation>
+        <key>supply_allocated1</key>
+        <value>Supply successfully allocated to a Person into the database.</value>
+    </translation>
+    <translation>
+        <key>supply_location_allocation</key>
+        <value>Enter location to allocate the selected supply:
+1. TELUS        
+2. University of Calgary
+</value>
+    </translation>
+    <translation>
+        <key>supply_location_failed</key>
+        <value>No location found with that ID. Please try again.</value>
+    </translation>
+    <translation>
+        <key>supply_invalid_num2</key>
+        <value>Invalid number. Please enter an integer.</value>
+    </translation>
+    <translation>
+        <key>supply_inserted2</key>
+        <value>"Supply successfully inserted into the database.</value>
+    </translation>
+    <translation>
+        <key>supply_allocated2</key>
+        <value>Supply successfully allocated to a Location into the database.</value>
+    </translation>
+
+    <translation>
+        <key>supply_room_grid</key>
+        <value>Please enter a room and a Grid (ex: 410 G16): </value>
+    </translation>
+    <translation>
+        <key>supply_invalid_format</key>
+        <value>Invalid input. Format must be 'XXX YXX' (e.g., 123 A45). Try again.</value>
+    </translation>
+    <translation>
+        <key>supply_brief_description</key>
+        <value>Enter a brief description about the Personal belonging: </value>
+    </translation>
+    <translation>
+        <key>supply_some_comments</key>
+        <value>Enter some comments (if necessary): </value>
+    </translation>
+</translations>
+
